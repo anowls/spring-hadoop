@@ -1,0 +1,35 @@
+apply plugin: 'java'
+apply plugin: 'idea'
+
+group 'org.anowls'
+
+ext {
+    junitVersion = "4.12"
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+    mavenLocal()
+    maven { url 'http://maven.aliyun.com/nexus/content/groups/public/' }
+    mavenCentral()
+    jcenter()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile group: 'com.alibaba', name: 'fastjson', version: '1.2.34'
+    compile group: 'org.slf4j', name: 'slf4j-log4j12', version: '1.7.22'
+    compile group: 'org.apache.httpcomponents', name: 'httpclient', version: '4.5.3'
+}
+
+
+
+
+
+
+
+
+
+
