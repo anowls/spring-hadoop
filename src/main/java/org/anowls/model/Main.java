@@ -1,4 +1,4 @@
-package org.anowls.dev.model;
+package org.anowls.model;
 
 import java.io.*;
 

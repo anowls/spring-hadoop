@@ -1,4 +1,4 @@
-package org.anowls.dev.utils;
+package org.anowls.utils;
 
 import java.util.Random;
 

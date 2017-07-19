@@ -1,4 +1,4 @@
-package org.anowls.dev.model;
+package org.anowls.model;
 
 /**
  * Created by anowls on 2017/7/13.

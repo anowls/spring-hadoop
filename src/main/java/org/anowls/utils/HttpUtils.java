@@ -1,4 +1,4 @@
-package org.anowls.dev.utils;
+package org.anowls.utils;
 
 import com.alibaba.fastjson.JSON;
 import org.apache.http.HttpEntity;
